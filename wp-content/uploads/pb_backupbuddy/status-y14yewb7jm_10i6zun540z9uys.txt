@@ -528,3 +528,139 @@
 {"event":"details","time":1523664529,"u":"16","run":"0.60","mem":"38.15","data":"Not calling spawn_cron()."}
 {"event":"details","time":1523664529,"u":"16","run":"0.60","mem":"38.15","data":"About to run next step (integrity_check expected). If the backup does not proceed within 15 seconds then something is interfering with the WordPress CRON system such as: server loopback issues, caching plugins, scheduling plugins, another plugin using all available cron time, or another BackupBuddy process in progress (file transfers, other backups, Stash Live backup) taking up all cron time. Try disabling other plugins to see if it resolves issue.  Check the Server Information page cron section to see if the next BackupBuddy step is scheduled to run. Enable \"Classic\" backup mode on the \"Settings\" page to rule out non-cron issues. Additionally you may verify no other backup processes are trying to run at the same time by verifying there is not an existing backup process listed in the cron hogging the cron process."}
 {"event":"details","time":1523664529,"u":"16","run":"0.60","mem":"38.15","data":"Completed step function `backup_zip_files`."}
+{"event":"details","time":1523729557,"u":"04","run":"0.56","mem":"36.25","data":"--- New PHP process."}
+{"event":"details","time":1523729557,"u":"05","run":"0.58","mem":"36.25","data":"Checking max PHP execution time settings."}
+{"event":"details","time":1523729557,"u":"05","run":"0.58","mem":"36.25","data":"Skipped attempting to override max PHP execution time based on settings."}
+{"event":"details","time":1523729557,"u":"05","run":"0.58","mem":"36.25","data":"Reported PHP execution time - Configured: 30; Original: 30; Current: 30"}
+{"event":"details","time":1523729557,"u":"06","run":"0.58","mem":"36.25","data":"Attempted to set PHP memory limit to user defined WP_MAX_MEMORY_LIMIT (256M) or over-ridden value"}
+{"event":"details","time":1523729557,"u":"06","run":"0.58","mem":"36.25","data":"Reported PHP memory limits - Configured: 256M; Original: 256M; Current: 256M"}
+{"event":"message","time":1523729557,"u":"06","run":"0.58","mem":"36.25","data":"Running process for serial `y14yewb7jm`..."}
+{"event":"details","time":1523729557,"u":"12","run":"0.65","mem":"37.94","data":"Exec test (zip) trying executable path: `\/usr\/local\/bin`."}
+{"event":"details","time":1523729557,"u":"13","run":"0.66","mem":"37.94","data":"Exec test (zip) FAILED: Test zip file not found."}
+{"event":"details","time":1523729557,"u":"13","run":"0.66","mem":"37.94","data":"Exec test (zip) FAILED: exec Exit Code: 127"}
+{"event":"details","time":1523729557,"u":"14","run":"0.66","mem":"37.94","data":"Exec test (zip) trying executable path: ``."}
+{"event":"details","time":1523729557,"u":"15","run":"0.67","mem":"37.94","data":"Exec test (zip) PASSED."}
+{"event":"details","time":1523729557,"u":"15","run":"0.67","mem":"37.94","data":"Checking zip version..."}
+{"event":"details","time":1523729557,"u":"16","run":"0.68","mem":"37.94","data":"Found zip version: 3.0"}
+{"event":"details","time":1523729557,"u":"16","run":"0.68","mem":"37.94","data":"Exec test (unzip) checking test file readable: \/home3\/mauibeats\/bitcoinautodaytrading.com\/wp-content\/plugins\/backupbuddy\/lib\/zipbuddy\/zbzip.php"}
+{"event":"details","time":1523729557,"u":"16","run":"0.68","mem":"37.94","data":"Exec test (unzip) checking test file intact: 0a0f9b28c5ff89dfb4f2a0472be0ea8f"}
+{"event":"details","time":1523729557,"u":"17","run":"0.69","mem":"37.94","data":"Exec test (unzip) trying executable path: `\/usr\/local\/bin`."}
+{"event":"details","time":1523729557,"u":"18","run":"0.70","mem":"37.94","data":"Exec test (unzip) FAILED: Test unzip file test failed."}
+{"event":"details","time":1523729557,"u":"18","run":"0.70","mem":"37.94","data":"Exec test (unzip) FAILED: exec Exit Code: 127"}
+{"event":"details","time":1523729557,"u":"18","run":"0.70","mem":"37.94","data":"Exec test (unzip) trying executable path: ``."}
+{"event":"details","time":1523729557,"u":"19","run":"0.71","mem":"37.94","data":"Exec test (unzip) PASSED."}
+{"event":"details","time":1523729557,"u":"19","run":"0.71","mem":"37.94","data":"Checking unzip version..."}
+{"event":"details","time":1523729557,"u":"20","run":"0.72","mem":"37.94","data":"Found unzip version: 6.0"}
+{"event":"details","time":1523729557,"u":"21","run":"0.73","mem":"37.94","data":"ZipArchive test PASSED."}
+{"event":"details","time":1523729557,"u":"21","run":"0.73","mem":"37.95","data":"PCLZip class not found. Attempting to load from `\/home3\/mauibeats\/bitcoinautodaytrading.com\/wp-admin\/includes\/class-pclzip.php`."}
+{"event":"details","time":1523729557,"u":"25","run":"0.77","mem":"38.68","data":"PclZip test PASSED."}
+{"event":"details","time":1523729557,"u":"25","run":"0.77","mem":"38.69","data":"About to load fileoptions data for serial `y14yewb7jm`."}
+{"event":"details","time":1523729557,"u":"26","run":"0.78","mem":"38.79","data":"Fileoptions instance #39."}
+{"event":"details","time":1523729557,"u":"26","run":"0.78","mem":"38.79","data":"Created fileoptions lock file `y14yewb7jm.txt.lock` with ID: 5ad244953f9da6.26780317."}
+{"event":"details","time":1523729557,"u":"27","run":"0.79","mem":"38.82","data":"Fileoptions load using 0.03 MB of memory."}
+{"event":"details","time":1523729557,"u":"27","run":"0.79","mem":"38.82","data":"Fileoptions data loaded."}
+{"event":"finishAction","time":1523729557,"u":"27","run":"0.79","mem":"38.82","data":"cronPass"}
+{"event":"details","time":1523729557,"u":"27","run":"0.79","mem":"38.83","data":"Fileoptions `y14yewb7jm.txt` saved. 6780 bytes written."}
+{"event":"details","time":1523729557,"u":"27","run":"0.79","mem":"38.82","data":"Found next step to run: `integrity_check`."}
+{"event":"details","time":1523729557,"u":"27","run":"0.79","mem":"38.82","data":"Peak memory usage: 39.195 MB"}
+{"event":"details","time":1523729557,"u":"27","run":"0.79","mem":"38.82","data":"-----"}
+{"event":"details","time":1523729557,"u":"27","run":"0.79","mem":"38.82","data":"Starting step function `integrity_check`. Attempt #1."}
+{"event":"startFunction","time":1523729557,"u":"27","run":"0.79","mem":"38.82","data":"{\"function\":\"integrity_check\",\"title\":\"Verifying backup file integrity\"}"}
+{"event":"milestone","time":1523729557,"u":"27","run":"0.79","mem":"38.82","data":"start_integrity"}
+{"event":"message","time":1523729557,"u":"27","run":"0.79","mem":"38.82","data":"Scanning and verifying backup file integrity."}
+{"event":"details","time":1523729557,"u":"27","run":"0.79","mem":"38.82","data":"Starting integrity check on `\/home3\/mauibeats\/bitcoinautodaytrading.com\/wp-content\/uploads\/backupbuddy_backups\/backup-bitcoinautodaytrading_com-2018_04_13-03_04am-db-y14yewb7jm.zip`."}
+{"event":"details","time":1523729557,"u":"28","run":"0.80","mem":"38.93","data":"Started backup_integrity_check() function for `y14yewb7jm` for file `\/home3\/mauibeats\/bitcoinautodaytrading.com\/wp-content\/uploads\/backupbuddy_backups\/backup-bitcoinautodaytrading_com-2018_04_13-03_04am-db-y14yewb7jm.zip`."}
+{"event":"details","time":1523729557,"u":"28","run":"0.80","mem":"38.93","data":"Verifying comment in zip archive."}
+{"event":"details","time":1523729557,"u":"31","run":"0.83","mem":"38.94","data":"exec (unzip) retrieved comment in file \/home3\/mauibeats\/bitcoinautodaytrading.com\/wp-content\/uploads\/backupbuddy_backups\/backup-bitcoinautodaytrading_com-2018_04_13-03_04am-db-y14yewb7jm.zip"}
+{"event":"details","time":1523729557,"u":"31","run":"0.83","mem":"38.94","data":"NOTE: It is normal to see several \"File not found\" messages in the next several log lines."}
+{"event":"details","time":1523729557,"u":"31","run":"0.83","mem":"38.94","data":"Verifying DAT file in zip archive."}
+{"event":"details","time":1523729557,"u":"33","run":"0.85","mem":"38.94","data":"File not found (exec): wp-content\/uploads\/backupbuddy_temp\/y14yewb7jm\/backupbuddy_dat.php"}
+{"event":"details","time":1523729557,"u":"35","run":"0.87","mem":"38.94","data":"File not found (exec): wp-content\/uploads\/temp_y14yewb7jm\/backupbuddy_dat.php"}
+{"event":"details","time":1523729557,"u":"36","run":"0.88","mem":"38.94","data":"File found (exec): backupbuddy_dat.php"}
+{"event":"details","time":1523729557,"u":"36","run":"0.88","mem":"38.94","data":"Verifying database SQL file in zip archive."}
+{"event":"details","time":1523729557,"u":"36","run":"0.88","mem":"38.94","data":"Forcing to a single db_1.sql file was NOT enabled for this backup."}
+{"event":"details","time":1523729557,"u":"36","run":"0.88","mem":"38.94","data":"BackupBuddy v5.0+ format database detected."}
+{"event":"details","time":1523729557,"u":"36","run":"0.88","mem":"38.94","data":"Database-only type backup."}
+{"event":"details","time":1523729557,"u":"37","run":"0.89","mem":"38.95","data":"File not found (exec): db_1.sql"}
+{"event":"details","time":1523729557,"u":"37","run":"0.89","mem":"38.94","data":"PHP based database dump type."}
+{"event":"details","time":1523729557,"u":"38","run":"0.90","mem":"38.95","data":"File found (exec): wp_commentmeta.sql"}
+{"event":"details","time":1523729557,"u":"39","run":"0.91","mem":"38.95","data":"File found (exec): wp_comments.sql"}
+{"event":"details","time":1523729557,"u":"40","run":"0.92","mem":"38.95","data":"File found (exec): wp_links.sql"}
+{"event":"details","time":1523729557,"u":"41","run":"0.93","mem":"38.95","data":"File found (exec): wp_options.sql"}
+{"event":"details","time":1523729557,"u":"42","run":"0.95","mem":"38.95","data":"File found (exec): wp_postmeta.sql"}
+{"event":"details","time":1523729557,"u":"44","run":"0.96","mem":"38.95","data":"File found (exec): wp_posts.sql"}
+{"event":"details","time":1523729557,"u":"45","run":"0.97","mem":"38.95","data":"File found (exec): wp_term_relationships.sql"}
+{"event":"details","time":1523729557,"u":"46","run":"0.98","mem":"38.95","data":"File found (exec): wp_term_taxonomy.sql"}
+{"event":"details","time":1523729557,"u":"47","run":"0.99","mem":"38.95","data":"File found (exec): wp_termmeta.sql"}
+{"event":"details","time":1523729557,"u":"48","run":"1.00","mem":"38.95","data":"File found (exec): wp_terms.sql"}
+{"event":"details","time":1523729557,"u":"49","run":"1.01","mem":"38.95","data":"File found (exec): wp_usermeta.sql"}
+{"event":"details","time":1523729557,"u":"50","run":"1.02","mem":"38.95","data":"File found (exec): wp_users.sql"}
+{"event":"details","time":1523729557,"u":"50","run":"1.03","mem":"38.94","data":"Retrieving zip scan log."}
+{"event":"details","time":1523729557,"u":"50","run":"1.03","mem":"38.94","data":"Calculating integrity scan status,"}
+{"event":"details","time":1523729557,"u":"50","run":"1.03","mem":"38.94","data":"Status: `Pass`. Description: ``."}
+{"event":"details","time":1523729557,"u":"50","run":"1.03","mem":"38.94","data":"Getting file details such as size, timestamp, etc."}
+{"event":"details","time":1523729557,"u":"50","run":"1.03","mem":"38.94","data":"Saving backup file integrity check details."}
+{"event":"details","time":1523729557,"u":"51","run":"1.03","mem":"38.96","data":"Fileoptions `y14yewb7jm.txt` saved. 7360 bytes written."}
+{"event":"milestone","time":1523729557,"u":"51","run":"1.03","mem":"38.83","data":"finish_integrity"}
+{"event":"details","time":1523729557,"u":"51","run":"1.03","mem":"38.84","data":"Fileoptions `y14yewb7jm.txt` saved. 7408 bytes written."}
+{"event":"details","time":1523729557,"u":"51","run":"1.03","mem":"38.83","data":"Finished function `integrity_check`. Peak memory usage: 39.195 MB with BackupBuddy v7.3.0.1"}
+{"event":"finishFunction","time":1523729557,"u":"51","run":"1.03","mem":"38.83","data":"{\"function\":\"integrity_check\"}"}
+{"event":"details","time":1523729557,"u":"51","run":"1.03","mem":"38.83","data":"-----"}
+{"event":"details","time":1523729557,"u":"51","run":"1.03","mem":"38.83","data":"Closing & unlocking fileoptions."}
+{"event":"warnings","time":1523729557,"u":"51","run":"1.03","mem":"38.83","data":"Warning #438943984983. This warning may be okay and ignored. $this->_backup still appears to be set. Still a fileoptions object? May result in race condition issues if fileoptions still open and\/or locked. Set = empty string to verify it shuts down properly prior to calling this function."}
+{"event":"details","time":1523729557,"u":"51","run":"1.03","mem":"38.83","data":"Scheduling Cron for `y14yewb7jm`."}
+{"event":"details","time":1523729557,"u":"55","run":"1.07","mem":"38.85","data":"Database kicker loaded. Database object class: `wpdb` with database of type `mysqli`."}
+{"event":"details","time":1523729557,"u":"55","run":"1.07","mem":"38.85","data":"Pinging mysqli."}
+{"event":"details","time":1523729557,"u":"55","run":"1.07","mem":"38.85","data":"Database Server connection status verified."}
+{"event":"details","time":1523729557,"u":"55","run":"1.07","mem":"38.85","data":"Scheduling next step to run at `1523729557` (localized time: Apr 14, 2018 6:12:37 pm), pushed to the top, with cron tag `backupbuddy_cron` to run method `process_backup` and serial arguments `y14yewb7jm`."}
+{"event":"details","time":1523729557,"u":"56","run":"1.08","mem":"38.86","data":"Next step scheduled."}
+{"event":"startAction","time":1523729557,"u":"56","run":"1.08","mem":"38.86","data":"cronPass"}
+{"event":"cronParams","time":1523729557,"u":"56","run":"1.08","mem":"38.86","data":"eyJ0aW1lIjoxNTIzNzI5NTU3LCJ0YWciOiJiYWNrdXBidWRkeV9jcm9uIiwibWV0aG9kIjoicHJvY2Vzc19iYWNrdXAiLCJhcmdzIjpbInkxNHlld2I3am0iXX0="}
+{"event":"details","time":1523729557,"u":"56","run":"1.08","mem":"38.85","data":"Not calling spawn_cron()."}
+{"event":"details","time":1523729557,"u":"56","run":"1.08","mem":"38.85","data":"About to run next step (post_backup expected). If the backup does not proceed within 15 seconds then something is interfering with the WordPress CRON system such as: server loopback issues, caching plugins, scheduling plugins, another plugin using all available cron time, or another BackupBuddy process in progress (file transfers, other backups, Stash Live backup) taking up all cron time. Try disabling other plugins to see if it resolves issue.  Check the Server Information page cron section to see if the next BackupBuddy step is scheduled to run. Enable \"Classic\" backup mode on the \"Settings\" page to rule out non-cron issues. Additionally you may verify no other backup processes are trying to run at the same time by verifying there is not an existing backup process listed in the cron hogging the cron process."}
+{"event":"details","time":1523729557,"u":"56","run":"1.08","mem":"38.85","data":"Completed step function `integrity_check`."}
+{"event":"details","time":1523736623,"u":"18","run":"0.36","mem":"36.26","data":"--- New PHP process."}
+{"event":"details","time":1523736623,"u":"18","run":"0.36","mem":"36.26","data":"Checking max PHP execution time settings."}
+{"event":"details","time":1523736623,"u":"18","run":"0.36","mem":"36.26","data":"Skipped attempting to override max PHP execution time based on settings."}
+{"event":"details","time":1523736623,"u":"18","run":"0.36","mem":"36.26","data":"Reported PHP execution time - Configured: 30; Original: 30; Current: 30"}
+{"event":"details","time":1523736623,"u":"18","run":"0.36","mem":"36.26","data":"Attempted to set PHP memory limit to user defined WP_MAX_MEMORY_LIMIT (256M) or over-ridden value"}
+{"event":"details","time":1523736623,"u":"18","run":"0.36","mem":"36.26","data":"Reported PHP memory limits - Configured: 256M; Original: 256M; Current: 256M"}
+{"event":"message","time":1523736623,"u":"18","run":"0.36","mem":"36.26","data":"Running process for serial `y14yewb7jm`..."}
+{"event":"details","time":1523736623,"u":"21","run":"0.38","mem":"37.95","data":"About to load fileoptions data for serial `y14yewb7jm`."}
+{"event":"details","time":1523736623,"u":"21","run":"0.38","mem":"38.05","data":"Fileoptions instance #39."}
+{"event":"details","time":1523736623,"u":"21","run":"0.38","mem":"38.05","data":"Created fileoptions lock file `y14yewb7jm.txt.lock` with ID: 5ad2602f33bd35.55752923."}
+{"event":"details","time":1523736623,"u":"21","run":"0.38","mem":"38.08","data":"Fileoptions load using 0.03 MB of memory."}
+{"event":"details","time":1523736623,"u":"21","run":"0.39","mem":"38.09","data":"Fileoptions data loaded."}
+{"event":"finishAction","time":1523736623,"u":"21","run":"0.39","mem":"38.09","data":"cronPass"}
+{"event":"details","time":1523736623,"u":"21","run":"0.39","mem":"38.10","data":"Fileoptions `y14yewb7jm.txt` saved. 7452 bytes written."}
+{"event":"details","time":1523736623,"u":"21","run":"0.39","mem":"38.09","data":"Found next step to run: `post_backup`."}
+{"event":"details","time":1523736623,"u":"21","run":"0.39","mem":"38.09","data":"Peak memory usage: 38.161 MB"}
+{"event":"details","time":1523736623,"u":"21","run":"0.39","mem":"38.09","data":"-----"}
+{"event":"details","time":1523736623,"u":"21","run":"0.39","mem":"38.09","data":"Starting step function `post_backup`. Attempt #1."}
+{"event":"startFunction","time":1523736623,"u":"21","run":"0.39","mem":"38.09","data":"{\"function\":\"post_backup\",\"title\":\"Cleaning up\"}"}
+{"event":"message","time":1523736623,"u":"21","run":"0.39","mem":"38.09","data":"Cleaning up after backup."}
+{"event":"details","time":1523736623,"u":"21","run":"0.39","mem":"38.09","data":"Removing temp data directory."}
+{"event":"details","time":1523736623,"u":"28","run":"0.46","mem":"38.09","data":"Trimming old archives (if needed)."}
+{"event":"details","time":1523736623,"u":"28","run":"0.46","mem":"38.10","data":"Trimmed 0 old archives based on settings archive limits."}
+{"event":"details","time":1523736623,"u":"28","run":"0.46","mem":"38.09","data":"Final ZIP file size: 65 KB"}
+{"event":"archiveSize","time":1523736623,"u":"28","run":"0.46","mem":"38.09","data":"65 KB"}
+{"event":"details","time":1523736623,"u":"29","run":"0.46","mem":"38.09","data":"Updating statistics for last backup completed and number of edits since last backup."}
+{"event":"details","time":1523736623,"u":"29","run":"0.47","mem":"38.39","data":"Cleaning up any old temporary zip directories in: `\/home3\/mauibeats\/bitcoinautodaytrading.com\/wp-content\/uploads\/backupbuddy_temp\/`. If no recent backups then the temp directory will also be purged."}
+{"event":"details","time":1523736623,"u":"29","run":"0.47","mem":"38.39","data":"Sending scheduled backup complete email notification."}
+{"event":"details","time":1523736623,"u":"29","run":"0.47","mem":"38.39","data":"Fileoptions instance #37."}
+{"event":"details","time":1523736623,"u":"29","run":"0.47","mem":"38.43","data":"Fileoptions load using 0.03 MB of memory."}
+{"event":"details","time":1523736623,"u":"32","run":"0.50","mem":"38.45","data":"Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http:\/\/bitcoinautodaytrading.com`; recipient(s): ``."}
+{"event":"message","time":1523736623,"u":"32","run":"0.50","mem":"38.39","data":"Finished cleaning up."}
+{"event":"archiveInfo","time":1523736623,"u":"32","run":"0.50","mem":"38.39","data":"{\"file\":\"backup-bitcoinautodaytrading_com-2018_04_13-03_04am-db-y14yewb7jm.zip\",\"url\":\"http:\\\/\\\/bitcoinautodaytrading.com\\\/wp-admin\\\/admin-ajax.php?action=pb_backupbuddy_backupbuddy&function=download_archive&backupbuddy_backup=backup-bitcoinautodaytrading_com-2018_04_13-03_04am-db-y14yewb7jm.zip\"}"}
+{"event":"details","time":1523736623,"u":"32","run":"0.50","mem":"38.41","data":"Fileoptions `y14yewb7jm.txt` saved. 7512 bytes written."}
+{"event":"details","time":1523736623,"u":"32","run":"0.50","mem":"38.39","data":"Finished function `post_backup`. Peak memory usage: 38.555 MB with BackupBuddy v7.3.0.1"}
+{"event":"finishFunction","time":1523736623,"u":"32","run":"0.50","mem":"38.39","data":"{\"function\":\"post_backup\"}"}
+{"event":"details","time":1523736623,"u":"32","run":"0.50","mem":"38.39","data":"-----"}
+{"event":"details","time":1523736623,"u":"32","run":"0.50","mem":"38.39","data":"No more backup steps remain. Finishing..."}
+{"event":"details","time":1523736623,"u":"32","run":"0.50","mem":"38.41","data":"Fileoptions `y14yewb7jm.txt` saved. 7552 bytes written."}
+{"event":"startFunction","time":1523736623,"u":"32","run":"0.50","mem":"38.39","data":"{\"function\":\"backup_success\",\"title\":\"Backup completed successfully.\"}"}
+{"event":"finishFunction","time":1523736623,"u":"32","run":"0.50","mem":"38.39","data":"{\"function\":\"backup_success\"}"}
+{"event":"details","time":1523736623,"u":"32","run":"0.50","mem":"38.39","data":"Closing & unlocking fileoptions."}
+{"event":"details","time":1523736623,"u":"32","run":"0.50","mem":"38.39","data":"Completed step function `post_backup`."}
+{"event":"details","time":1523736623,"u":"33","run":"0.50","mem":"38.38","data":"Rescheduled cron for method `php_runtime_test` as setting to limit single cron per pass enabled. Details: `Array\n(\n    [0] => 1\n)\n`. Reschedule count: `1`. Previous method: `process_backup`."}
+{"event":"details","time":1523736623,"u":"33","run":"0.51","mem":"38.46","data":"Rescheduled cron for method `process_backup` as setting to limit single cron per pass enabled. Details: `Array\n(\n    [0] => i47i1ysj9w\n)\n`. Reschedule count: `1`. Previous method: `process_backup`."}
