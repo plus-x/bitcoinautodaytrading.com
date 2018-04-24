@@ -579,3 +579,52 @@
 {"event":"details","time":1524471309,"u":"57","run":"6.48","mem":"38.81","data":"Not calling spawn_cron()."}
 {"event":"details","time":1524471309,"u":"57","run":"6.48","mem":"38.81","data":"About to run next step (post_backup expected). If the backup does not proceed within 15 seconds then something is interfering with the WordPress CRON system such as: server loopback issues, caching plugins, scheduling plugins, another plugin using all available cron time, or another BackupBuddy process in progress (file transfers, other backups, Stash Live backup) taking up all cron time. Try disabling other plugins to see if it resolves issue.  Check the Server Information page cron section to see if the next BackupBuddy step is scheduled to run. Enable \"Classic\" backup mode on the \"Settings\" page to rule out non-cron issues. Additionally you may verify no other backup processes are trying to run at the same time by verifying there is not an existing backup process listed in the cron hogging the cron process."}
 {"event":"details","time":1524471309,"u":"57","run":"6.48","mem":"38.81","data":"Completed step function `integrity_check`."}
+{"event":"details","time":1524507737,"u":"69","run":"1.17","mem":"36.34","data":"Rescheduled cron for method `process_backup` as setting to limit single cron per pass enabled. Details: `Array\n(\n    [0] => rkgnmbkho6\n)\n`. Reschedule count: `1`. Previous method: `php_runtime_test_results`."}
+{"event":"details","time":1524507760,"u":"65","run":"0.78","mem":"36.26","data":"--- New PHP process."}
+{"event":"details","time":1524507760,"u":"65","run":"0.78","mem":"36.26","data":"Checking max PHP execution time settings."}
+{"event":"details","time":1524507760,"u":"65","run":"0.78","mem":"36.26","data":"Skipped attempting to override max PHP execution time based on settings."}
+{"event":"details","time":1524507760,"u":"65","run":"0.78","mem":"36.26","data":"Reported PHP execution time - Configured: 30; Original: 30; Current: 30"}
+{"event":"details","time":1524507760,"u":"65","run":"0.78","mem":"36.26","data":"Attempted to set PHP memory limit to user defined WP_MAX_MEMORY_LIMIT (256M) or over-ridden value"}
+{"event":"details","time":1524507760,"u":"65","run":"0.78","mem":"36.26","data":"Reported PHP memory limits - Configured: 256M; Original: 256M; Current: 256M"}
+{"event":"message","time":1524507760,"u":"65","run":"0.78","mem":"36.26","data":"Running process for serial `rkgnmbkho6`..."}
+{"event":"details","time":1524507760,"u":"67","run":"0.81","mem":"37.95","data":"About to load fileoptions data for serial `rkgnmbkho6`."}
+{"event":"details","time":1524507760,"u":"67","run":"0.81","mem":"38.05","data":"Fileoptions instance #39."}
+{"event":"details","time":1524507760,"u":"67","run":"0.81","mem":"38.06","data":"Created fileoptions lock file `rkgnmbkho6.txt.lock` with ID: 5ade2470a4bfb5.25953902."}
+{"event":"details","time":1524507760,"u":"67","run":"0.81","mem":"38.09","data":"Fileoptions load using 0.03 MB of memory."}
+{"event":"details","time":1524507760,"u":"67","run":"0.81","mem":"38.09","data":"Fileoptions data loaded."}
+{"event":"finishAction","time":1524507760,"u":"67","run":"0.81","mem":"38.09","data":"cronPass"}
+{"event":"details","time":1524507760,"u":"67","run":"0.81","mem":"38.11","data":"Fileoptions `rkgnmbkho6.txt` saved. 7376 bytes written."}
+{"event":"details","time":1524507760,"u":"67","run":"0.81","mem":"38.09","data":"Found next step to run: `post_backup`."}
+{"event":"details","time":1524507760,"u":"67","run":"0.81","mem":"38.09","data":"Peak memory usage: 38.164 MB"}
+{"event":"details","time":1524507760,"u":"67","run":"0.81","mem":"38.09","data":"-----"}
+{"event":"details","time":1524507760,"u":"67","run":"0.81","mem":"38.09","data":"Starting step function `post_backup`. Attempt #1."}
+{"event":"startFunction","time":1524507760,"u":"67","run":"0.81","mem":"38.09","data":"{\"function\":\"post_backup\",\"title\":\"Cleaning up\"}"}
+{"event":"message","time":1524507760,"u":"67","run":"0.81","mem":"38.09","data":"Cleaning up after backup."}
+{"event":"details","time":1524507760,"u":"67","run":"0.81","mem":"38.09","data":"Removing temp data directory."}
+{"event":"details","time":1524507760,"u":"70","run":"0.84","mem":"38.10","data":"Trimming old archives (if needed)."}
+{"event":"details","time":1524507760,"u":"70","run":"0.84","mem":"38.11","data":"Deleting old archive `backup-bitcoinautodaytrading_com-2018_04_14-06_12pm-db-i47i1ysj9w.zip` as it exceeds the maximum age limit `7` allowed at `7.31847222222` days."}
+{"event":"details","time":1524507760,"u":"71","run":"0.85","mem":"38.11","data":"Deleting old archive `backup-bitcoinautodaytrading_com-2018_04_15-02_19pm-db-juxiu4j2nd.zip` as it causes archives to exceed total number of DATABASE backups allowed."}
+{"event":"details","time":1524507760,"u":"72","run":"0.85","mem":"38.11","data":"Trimmed 2 old archives based on settings archive limits."}
+{"event":"details","time":1524507760,"u":"72","run":"0.85","mem":"38.10","data":"Final ZIP file size: 65 KB"}
+{"event":"archiveSize","time":1524507760,"u":"72","run":"0.85","mem":"38.10","data":"65 KB"}
+{"event":"details","time":1524507760,"u":"72","run":"0.85","mem":"38.10","data":"Updating statistics for last backup completed and number of edits since last backup."}
+{"event":"details","time":1524507760,"u":"73","run":"0.87","mem":"38.39","data":"Cleaning up any old temporary zip directories in: `\/home3\/mauibeats\/bitcoinautodaytrading.com\/wp-content\/uploads\/backupbuddy_temp\/`. If no recent backups then the temp directory will also be purged."}
+{"event":"details","time":1524507760,"u":"73","run":"0.87","mem":"38.39","data":"Sending scheduled backup complete email notification."}
+{"event":"details","time":1524507760,"u":"73","run":"0.87","mem":"38.39","data":"Fileoptions instance #37."}
+{"event":"details","time":1524507760,"u":"73","run":"0.87","mem":"38.43","data":"Fileoptions load using 0.03 MB of memory."}
+{"event":"details","time":1524507760,"u":"75","run":"0.88","mem":"38.46","data":"Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http:\/\/bitcoinautodaytrading.com`; recipient(s): ``."}
+{"event":"message","time":1524507760,"u":"75","run":"0.88","mem":"38.40","data":"Finished cleaning up."}
+{"event":"archiveInfo","time":1524507760,"u":"75","run":"0.88","mem":"38.40","data":"{\"file\":\"backup-bitcoinautodaytrading_com-2018_04_21-03_04pm-db-rkgnmbkho6.zip\",\"url\":\"http:\\\/\\\/bitcoinautodaytrading.com\\\/wp-admin\\\/admin-ajax.php?action=pb_backupbuddy_backupbuddy&function=download_archive&backupbuddy_backup=backup-bitcoinautodaytrading_com-2018_04_21-03_04pm-db-rkgnmbkho6.zip\"}"}
+{"event":"details","time":1524507760,"u":"75","run":"0.88","mem":"38.41","data":"Fileoptions `rkgnmbkho6.txt` saved. 7436 bytes written."}
+{"event":"details","time":1524507760,"u":"75","run":"0.89","mem":"38.40","data":"Finished function `post_backup`. Peak memory usage: 38.558 MB with BackupBuddy v7.3.0.1"}
+{"event":"finishFunction","time":1524507760,"u":"75","run":"0.89","mem":"38.40","data":"{\"function\":\"post_backup\"}"}
+{"event":"details","time":1524507760,"u":"75","run":"0.89","mem":"38.40","data":"-----"}
+{"event":"details","time":1524507760,"u":"75","run":"0.89","mem":"38.40","data":"No more backup steps remain. Finishing..."}
+{"event":"details","time":1524507760,"u":"75","run":"0.89","mem":"38.41","data":"Fileoptions `rkgnmbkho6.txt` saved. 7472 bytes written."}
+{"event":"startFunction","time":1524507760,"u":"75","run":"0.89","mem":"38.40","data":"{\"function\":\"backup_success\",\"title\":\"Backup completed successfully.\"}"}
+{"event":"finishFunction","time":1524507760,"u":"75","run":"0.89","mem":"38.40","data":"{\"function\":\"backup_success\"}"}
+{"event":"details","time":1524507760,"u":"75","run":"0.89","mem":"38.40","data":"Closing & unlocking fileoptions."}
+{"event":"details","time":1524507760,"u":"75","run":"0.89","mem":"38.40","data":"Completed step function `post_backup`."}
+{"event":"details","time":1524507760,"u":"76","run":"0.89","mem":"38.39","data":"Rescheduled cron for method `housekeeping` as setting to limit single cron per pass enabled. Details: `Array\n(\n)\n`. Reschedule count: `2`. Previous method: `process_backup`."}
+{"event":"details","time":1524507760,"u":"76","run":"0.90","mem":"38.47","data":"Rescheduled cron for method `process_backup` as setting to limit single cron per pass enabled. Details: `Array\n(\n    [0] => e87mpkmrsv\n)\n`. Reschedule count: `1`. Previous method: `process_backup`."}
+{"event":"details","time":1524507760,"u":"76","run":"0.90","mem":"38.47","data":"Rescheduled cron for method `process_backup` as setting to limit single cron per pass enabled. Details: `Array\n(\n    [0] => fx1nwiudyo\n)\n`. Reschedule count: `1`. Previous method: `process_backup`."}
